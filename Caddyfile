@@ -1,0 +1,5 @@
+http://:8080 {
+    reverse_proxy https://educationbluesky.com {
+        header_up Host educationbluesky.com
+    }
+}

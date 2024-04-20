@@ -1,0 +1,7 @@
+run = ["bash", "main.sh"]
+
+entrypoint = "main.sh"
+
+[[ports]]
+localPort = 8080
+externalPort = 80
